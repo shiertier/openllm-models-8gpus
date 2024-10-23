@@ -1,11 +1,11 @@
 engine_config:
   dtype: half
   max_model_len: 2048
-  model: /root/.cache/huggingface/hub/models--unsloth--Meta-Llama-3.1-8B-Instruct
+  model: meta-llama/Meta-Llama-3.1-8B-Instruct
 extra_envs:
 - name: HF_TOKEN
 extra_labels:
-  model_name: /root/.cache/huggingface/hub/models--unsloth--Meta-Llama-3.1-8B-Instruct
+  model_name: meta-llama/Meta-Llama-3.1-8B-Instruct
   openllm_alias: 8b,8b-instruct
 project: vllm-chat
 service_config:

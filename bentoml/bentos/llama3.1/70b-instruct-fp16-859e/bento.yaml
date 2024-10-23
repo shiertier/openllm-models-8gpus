@@ -4,7 +4,7 @@ version: 70b-instruct-fp16-859e
 bentoml_version: 1.3.7
 creation_time: '2024-09-27T22:06:42.247788+00:00'
 labels:
-  model_name: /root/.cache/huggingface/hub/models--unsloth--Meta-Llama-3.1-70B-Instruct
+  model_name: meta-llama/Meta-Llama-3.1-70B-Instruct
   openllm_alias: 70b,70b-instruct
   platforms: linux
   source: https://github.com/bentoml/openllm-models/tree/main/src/vllm-chat
