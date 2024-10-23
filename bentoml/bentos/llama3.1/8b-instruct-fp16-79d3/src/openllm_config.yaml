@@ -11,7 +11,7 @@ project: vllm-chat
 service_config:
   name: llama3.1
   resources:
-    gpu: 1
-    gpu_type: nvidia-tesla-l4
+    gpu: 8
+    gpu_type: nvidia-rtx-3060
   traffic:
     timeout: 300
