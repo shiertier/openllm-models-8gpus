@@ -1,6 +1,6 @@
 engine_config:
   max_model_len: 2048
-  model: meta-llama/Meta-Llama-3.1-70B-Instruct
+  model: /root/.cache/huggingface/hub/models--unsloth--Meta-Llama-3.1-70B-Instruct
   tensor_parallel_size: 2
 extra_envs:
 - name: HF_TOKEN

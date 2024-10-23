@@ -1,7 +1,7 @@
 engine_config:
   dtype: half
   max_model_len: 2048
-  model: meta-llama/Meta-Llama-3.1-8B-Instruct
+  model: /root/.cache/huggingface/hub/models--unsloth--Meta-Llama-3.1-70B-Instruct
 extra_envs:
 - name: HF_TOKEN
 extra_labels:
