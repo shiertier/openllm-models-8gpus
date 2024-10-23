@@ -19,7 +19,7 @@ services:
   config:
     name: gemma
     resources:
-      gpu: 1
+      gpu: 8
       gpu_type: nvidia-rtx-3060
     traffic:
       timeout: 300

@@ -19,8 +19,8 @@ services:
   config:
     name: llama3.1
     resources:
-      gpu: 2
-      gpu_type: nvidia-a100-80g
+      gpu: 8
+      gpu_type: nvidia-rtx-3060
     traffic:
       timeout: 300
 envs:
