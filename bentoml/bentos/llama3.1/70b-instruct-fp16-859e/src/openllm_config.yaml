@@ -1,7 +1,7 @@
 engine_config:
   max_model_len: 131072
   model: unsloth/Meta-Llama-3.1-70B-Instruct
-  tensor_parallel_size: 2
+  tensor_parallel_size: 8
 extra_envs:
 - name: HF_TOKEN
 extra_labels:
