@@ -1,5 +1,5 @@
 engine_config:
-  max_model_len: 2048
+  max_model_len: 4096
   model: unsloth/Meta-Llama-3.1-70B-Instruct
   tensor_parallel_size: 2
 extra_envs:
@@ -14,4 +14,4 @@ service_config:
     gpu: 8
     gpu_type: nvidia-rtx-3060
   traffic:
-    timeout: 300
+    timeout: 60000
